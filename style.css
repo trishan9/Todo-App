@@ -27,7 +27,6 @@ body {
   width: 60vw;
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
 }
 
 .task-input-button {
@@ -98,6 +97,11 @@ body {
   text-align: center;
   border: 1px solid black;
   padding: 20px 0;
+  cursor: default;
+}
+
+.task:hover {
+  background-color: #f9f9f9;
 }
 
 .todo {
@@ -111,7 +115,7 @@ body {
   cursor: pointer;
 }
 
-.stroke {
+.line-through {
   text-decoration: line-through;
   color: grey;
   border: 1px solid grey;
