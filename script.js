@@ -3,7 +3,6 @@ let taskInputButton = document.querySelector('.task-input-button')
 let addTaskBtn, userInput, checkBox, deleteBtn
 const taskDiv = document.querySelector('.addedTasks')
 
-
 // updates Local Storage
 const updateLS = () => {
     localStorage.setItem('tasks', JSON.stringify(tasksArr))
