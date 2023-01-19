@@ -6,15 +6,9 @@ const taskDiv = document.querySelector('.addedTasks')
 
 // updates Local Storage
 const updateLS = () => {
-<<<<<<< HEAD
     localStorage.setItem('tasks', JSON.stringify(tasksArr))
 }
 let tasksArr = JSON.parse(localStorage.getItem('tasks'))
-=======
-    localStorage.setItem('tasks', JSON.stringify(tasksArr));
-}
-let tasksArr = JSON.parse(localStorage.getItem('tasks'));
->>>>>>> 4cfdd43a1904e93d2d126ff79cb49d10e666beab
 
 // creates an input field and a button for the user to add a task.
 const fetchAddTask = () => {
@@ -92,11 +86,7 @@ const refresh = () => {
         checkAndDelete()
     })
 }
-<<<<<<< HEAD
 
 tasksArr ? refresh() : tasksArr = []
-=======
-refresh()
->>>>>>> 4cfdd43a1904e93d2d126ff79cb49d10e666beab
 
 taskInputButton.addEventListener('click', fetchAddTask)
